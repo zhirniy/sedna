@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
+use App\User;
 
 class RegisterController extends Controller
 {
@@ -80,5 +81,15 @@ class RegisterController extends Controller
         $user->generateToken();
 
         return response()->json(['data' => $user->toArray()], 201);
+    }
+
+     public function logout($id)
+    {
+
+    User::where('id', $id)->update(['api_token' => '']);
+
+    return response()->json(['data' => 'User logged out.'], 200);
+
+
     }
 }

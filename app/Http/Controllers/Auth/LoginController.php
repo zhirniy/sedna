@@ -48,7 +48,7 @@ class LoginController extends Controller
         $user->update();
     }*/
 
-    User::where('id', $id)->update(['api_token' => '']);
+    User::where('id', $id)->update(['api_token' => NULL]);
 
     return response()->json(['data' => 'User logged out.'], 200);
 
