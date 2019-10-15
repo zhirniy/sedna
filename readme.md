@@ -20,8 +20,9 @@
 <h3>Show film by parameter  GET {your-domain}/api/movies/search/{parameter}</h3>
 <p>parameter is name film or name actor</p>
 <p>Example url for POST <code>{your-domain}/api/movies/search/Rokky</code></p>
-
-id_user=1&name_film=Rokky2&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI
+<h3>Create film POST {your-domain}/api/movies</h3>
+<p>required parameters id_user,name_film,date_created,actor, token</p>
+<p>Example url for POST <code>id_user=1&name_film=Rokky2&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
 patch///api/movies/id
 user_id=1&name_film=Rokky5&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI
 delete//api/movies/id
