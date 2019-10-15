@@ -21,9 +21,15 @@
 <p>parameter is name film or name actor</p>
 <p>Example url for POST <code>{your-domain}/api/movies/search/Rokky</code></p>
 <h3>Create film POST {your-domain}/api/movies</h3>
-<p>required parameters id_user,name_film,date_created,actor, token</p>
-<p>Example url for POST <code>id_user=1&name_film=Rokky2&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
+<p>required parameters id_user,name_film,date_created,actor,format,token</p>
+<p>Example post parameters <code>id_user=1&name_film=Rokky2&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
 patch///api/movies/id
-user_id=1&name_film=Rokky5&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI
-delete//api/movies/id
-user_id=1&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI
+<h3>Edit film PATCH {your-domain}/api/movies/{id_film}</h3>
+<p>required parameters id_film,name_film,date_created,actor,format,token</p>
+<p>Example patch parameters <code><p>required parameters id_film,name_film,date_created,actor,format,token</p>
+name_film=Rokky5&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI
+    </code></p>
+<h3>Delete film Delete {your-domain}/api/movies/{id_film}</h3>
+<p>required parameters id_user,token,id_film</p>
+delete//api/movies/id 
+<p>Example patch parameters <code>user_id=1&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
