@@ -3,10 +3,12 @@
 <p>To start, download and download the application to the root directory of your hosting or virtual server.</p>
 <p>In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);</p>
 <p>If you are on shared hosting do "php artisan migrate";</p>
-<p>If you are on web hosting, do the import of tables with swdna sql. Also, replace the .htaccess_host file with .htacess.</p>
+<p>If you are on web hosting, do the import of tables with sedna sql. Also, replace the .htaccess_host file with .htacess.</p>
 
-POST//register
-name=test_user&email=test_user@ukr.net&password=11111111&password_confirmation=11111111
+<p>Methods Api:</p>
+<p>POST// your-domain/api/register</p>
+<p>required parameters name,email,password,password_confirmation</p>
+<p>Example<code>name=test_user&email=test_user@ukr.net&password=11111111&password_confirmation=11111111</code></p>
 post//logout/id
 post//login
 email=test_user@ukr.net&password
