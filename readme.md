@@ -6,10 +6,12 @@
 <p>If you are on web hosting, do the import of tables with sedna sql. Also, replace the .htaccess_host file with .htacess.</p>
 
 <p>Methods Api:</p>
-<p>POST// your-domain/api/register</p>
+<h3>POST// your-domain/api/register</h3>
 <p>required parameters name,email,password,password_confirmation</p>
-<p>Example<code>name=test_user&email=test_user@ukr.net&password=11111111&password_confirmation=11111111</code></p>
-post//logout/id
+<p>Example post parameters<code>name=test_user&email=test_user@ukr.net&password=11111111&password_confirmation=11111111</code></p>
+<h3>POST// your-domain/api/logout/{id}</h3>
+<p>required parameters id user</p>
+<p>Example <code></code></p>
 post//login
 email=test_user@ukr.net&password
 post//api/movies
