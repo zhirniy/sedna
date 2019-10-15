@@ -33,3 +33,7 @@ name_film=Rokky5&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01
 <h3>Delete film Delete {your-domain}/api/movies/{id_film}</h3>
 <p>required parameters id_user,token,id_film</p>
 <p>Example patch parameters <code>user_id=1&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
+
+<h3>Create actor POST {your-domain}/api/actor</h3>
+<p>required parameters firs_name,last_name</p>
+<p>Example patch parameters <code>firs_name=first_name&last_name=last_name</code></p>
