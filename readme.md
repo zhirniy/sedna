@@ -1,5 +1,5 @@
-Hello.
-Developed application in the attachment.
+<p>Hello.</p>
+<p>Developed application in the attachment.</p>
 To start, download and download the application to the root directory of your hosting or virtual server.
 In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);
 if you are on shared hosting do "php artisan migrate";
