@@ -2,7 +2,7 @@
 <p>Developed application in the attachment.</p>
 <p>To start, download and download the application to the root directory of your hosting or virtual server.</p>
 <p>In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);</p>
-<p>Install folder vendor.Example comand <code>php composer.phar install</code></p>
+<p>Install folder vendor.Example comand <code>php composer.phar install</code> or <code>php composer install</code></p>
 <p>If you are on shared hosting do "php artisan migrate";</p>
 <p>If you are on web hosting, do the import of tables with sedna sql. Also, replace the .htaccess_host file with .htacess.</p>
 
