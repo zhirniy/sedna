@@ -4,7 +4,7 @@
 <p>In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);</p>
 <p>For update dependency run comand <code>php composer update</code></p>
 <p>Run comand "php artisan migrate" or import of tables with sedna sql.</p>
-<p>Run comand <code>php artisan serve or replace {your-domain} on {your-domain}/public/ in methods down</code></p>
+<p>Run comand <code>php artisan serve</code> or change  {your-domain} on {your-domain}/public/ in methods down</code></p>
 
 <h2>Methods Api:</h2>
 <h3>Register POST {your-domain}/api/register</h3>
