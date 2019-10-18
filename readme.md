@@ -17,11 +17,11 @@
 <p>required parameters email,password</p>
 <p>Example post parameters<code>email=test_user@ukr.net&password</code></p>
 <h3>Show all films GET {your-domain}/public/api/movies</h3>
-<h3>Show filmb by id GET {your-domain}/api/movies/{id}</h3>
+<h3>Show filmb by id GET {your-domain}/public/api/movies/{id}</h3>
 <h3>Show film by parameter  GET {your-domain}/public/api/movies/search/{parameter}</h3>
 <p>parameter is name film or name actor</p>
 <p>Example url for POST <code>{your-domain}/public/api/movies/search/Rokky</code></p>
-<h3>Create film POST {your-domain}/api/movies</h3>
+<h3>Create film POST {your-domain}/public/api/movies</h3>
 <p>required parameters id_user,name_film,date_created,actor,format,token</p>
 <p>Example post parameters <code>id_user=1&name_film=Rokky2&date_created=2010-03-03&format=DVD&actor[]=1&actor[]=2&token=01J75shwLQouLzmXiGqBPk5suVw4ljP7HHjxSfuJB4UGLzwTGW56NAdopnOI</code></p>
 
