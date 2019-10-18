@@ -1,6 +1,6 @@
 <p>Hello.</p>
 <p>Developed application in the attachment.</p>
-<p>To start, download the application to the root directory virtual server.</p>
+<p>To start, download the application to the root directory virtual or local server.</p>
 <p>In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);</p>
 <p>For update dependency run comand <code>php composer update</code></p>
 <p>run comand "php artisan migrate" or import of tables with sedna sql.</p>
