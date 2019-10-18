@@ -1,10 +1,10 @@
 <p>Hello.</p>
 <p>Developed application in the attachment.</p>
-<p>To start, download and download the application to the root directory of your hosting or virtual server.</p>
+<p>To start, download and download the application to the root directory virtual server.</p>
 <p>In the .env file, write the database connection settings (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD);</p>
-<p>Install folder vendor.Example comand <code>php composer.phar update</code> or <code>php composer update</code></p>
-<p>If you are on shared hosting do "php artisan migrate";</p>
-<p>If you are on web hosting, do the import of tables with sedna sql. Also, replace the .htaccess_host file with .htacess.</p>
+<p>For update dependency run comand <code>php composer.phar update</code>/p>
+<p>run comand "php artisan migrate" or import of tables with sedna sql.</p>
+<p>Run comand <code>php artisan serve</code>/p>
 
 <h2>Methods Api:</h2>
 <h3>Register POST {your-domain}/api/register</h3>
