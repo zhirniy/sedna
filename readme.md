@@ -13,7 +13,7 @@
 <h3>Logout POST {your-domain}/public/api/logout/{id}</h3>
 <p>required parameters id user</p>
 <p>Example url for POST <code>{your-domain}/public/api/logout/1</code></p>
-<h3>Login POST {your-domain}/api/login</h3>
+<h3>Login POST {your-domain}/public/api/login</h3>
 <p>required parameters email,password</p>
 <p>Example post parameters<code>email=test_user@ukr.net&password</code></p>
 <h3>Show all films GET {your-domain}/public/api/movies</h3>
